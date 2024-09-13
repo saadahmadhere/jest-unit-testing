@@ -6,7 +6,8 @@ const users = [
 ];
 
 const sortByAge = (usersArray = []) => {
-	return usersArray.sort((a, b) => a.age - b.age);
+	const res = usersArray.sort((a, b) => a.age - b.age);
+	return res;
 };
 
 console.log(sortByAge(users));
